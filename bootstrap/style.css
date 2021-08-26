@@ -1,0 +1,29 @@
+html,body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background: url(img/pexels-thorsten-technoman-338504.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1{
+    color: crimson;
+}
+
+h3{
+    color:brown;
+}

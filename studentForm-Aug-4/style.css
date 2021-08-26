@@ -1,0 +1,60 @@
+html,body
+{
+    box-sizing: border-box;
+    background-color: white;
+}
+
+body
+{
+border: 3px solid crimson;
+border-radius: 22px;
+padding: 12px;
+margin: 20px;
+min-height: 600px;
+color: crimson;
+background: linear-gradient(rgb(225, 233, 232),rgb(161, 161, 161));
+
+}
+
+main
+{
+    display: block;
+    align-items: center;
+    margin-left: 30%
+    
+}
+h2
+{
+  color: crimson;
+  text-align: center;  
+}
+form
+{
+    margin-bottom: 40px;
+}
+
+hr{
+    color: cornflowerblue;
+    margin-bottom: 20px;
+}
+
+
+tr
+{
+    margin: 20px 20px 20px 20px;
+    
+}
+
+td
+{
+    margin: 20px 20px;
+    padding: 12px
+}
+
+button
+{
+   background:crimson;
+   border-radius: 22px;
+   width: 75px;
+   margin-left: 28%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STUDENT FORM</title>
+</head>
+<body>
+    <header class="title">
+        <h2>Student Data Sheet</h2>
+    </header>
+    <hr>
+    <main>
+      
+        <form action="Post" name="form" id="form" accept-charset="UTF-8">
+            <table>
+                <tr>
+                    <td>Student Name: </td><td><input type="text" placeholder="firstname" class="input"></td><td><input type="text" placeholder="lastname" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Roll Number: </td><td><input type="text" placeholder="Ex:210419" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number: </td><td><input type="tel" placeholder="Ex:9176112367" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Guardian: </td><td><input type="text" placeholder="firstname" class="input"></td><td><input type="text" placeholder="lastname" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Acadamic Area: </td><td>Mathametics<input type="checkbox" class="input"></td><td>Science<input type="checkbox" class="input"></td><td>Other<input type="checkbox" class="input"></td>
+                </tr>
+                <tr>
+                    <td>DOB: </td><td><input type="date" class="input"></td>
+                </tr>
+                <tr>
+                    <td>Grade: </td><td><input type="text" class="input"></td>
+                </tr>
+                
+            </table>
+            <tr>
+                <td>Address</td>  <td><textarea name="address" class="input"></textarea></td>
+            </tr>
+        </form>
+      
+        <button type="submit" onclick="submit()" id="sub">submit</button>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
